@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f5f5f5;
+  }
+  
+  header {
+    background-color: #1abc9c;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  h1, h2 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 0 20px;
+  }
+  
+  .bmi-calculator,
+  .exercise-planner {
+    width: 100%;
+    background-color: #fff;
+    padding: 40px;
+    margin-bottom: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 15px;
+  border: 2px solid #ddd;
+  }
+  
+  input[type="submit"] {
+  background-color: #1abc9c;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+  background-color: #148f77;
+  }
+  
+  textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 2px solid #ddd;
+  }
+  
+  footer {
+  background-color: #fff;
+  color: #999;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  }
+  
+  @media screen and (min-width: 768px) {
+  main {
+  max-width: 800px;
+  margin: 0 auto;
+  }
+  
+  .bmi-calculator,
+  .exercise-planner {
+  width: 45%;
+  margin-right: 10%;
+  margin-bottom: 0;
+  }
+  
+  .exercise-planner {
+  margin-right: 0;
+  }  
+}
